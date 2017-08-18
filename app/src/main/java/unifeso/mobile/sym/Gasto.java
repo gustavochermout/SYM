@@ -5,4 +5,5 @@ package unifeso.mobile.sym;
  */
 
 public class Gasto extends Lancamento {
+    
 }
