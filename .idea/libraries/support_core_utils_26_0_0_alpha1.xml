@@ -1,15 +1,12 @@
 <component name="libraryTable">
   <library name="support-core-utils-26.0.0-alpha1">
-    <ANNOTATIONS>
-      <root url="jar://$USER_HOME$/.android/build-cache/df9ce931f9f944d295c3eb3316dc8b97a29c9c33/output/annotations.zip!/" />
-    </ANNOTATIONS>
     <CLASSES>
-      <root url="file://$USER_HOME$/.android/build-cache/df9ce931f9f944d295c3eb3316dc8b97a29c9c33/output/res" />
-      <root url="jar://$USER_HOME$/.android/build-cache/df9ce931f9f944d295c3eb3316dc8b97a29c9c33/output/jars/classes.jar!/" />
+      <root url="file://$USER_HOME$/.android/build-cache/68c24074ca2028d19e966dfce9971d9fbb54835e/output/res" />
+      <root url="jar://$USER_HOME$/.android/build-cache/68c24074ca2028d19e966dfce9971d9fbb54835e/output/jars/classes.jar!/" />
     </CLASSES>
     <JAVADOC />
     <SOURCES>
-      <root url="jar://$USER_HOME$/AppData/Local/Android/sdk/extras/android/m2repository/com/android/support/support-core-utils/26.0.0-alpha1/support-core-utils-26.0.0-alpha1-sources.jar!/" />
+      <root url="jar://$USER_HOME$/Android/Sdk/platforms/extras/android/m2repository/com/android/support/support-core-utils/26.0.0-alpha1/support-core-utils-26.0.0-alpha1-sources.jar!/" />
     </SOURCES>
   </library>
 </component>
