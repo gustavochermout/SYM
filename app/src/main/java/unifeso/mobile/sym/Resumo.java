@@ -7,15 +7,15 @@ package unifeso.mobile.sym;
 public class Resumo {
     public double saldo;
     public double receita;
-    public double gasto;
+    public double despesa;
 
     public Resumo() {
     }
 
-    public Resumo(double saldo, double receita, double gasto) {
+    public Resumo(double saldo, double receita, double despesa) {
         this.saldo = saldo;
         this.receita = receita;
-        this.gasto = gasto;
+        this.despesa = despesa;
     }
 
     public double getSaldo() {
@@ -34,11 +34,11 @@ public class Resumo {
         this.receita = receita;
     }
 
-    public double getGasto() {
-        return gasto;
+    public double getDespesa() {
+        return despesa;
     }
 
-    public void setGasto(double gasto) {
-        this.gasto = gasto;
+    public void setDespesa(double despesa) {
+        this.despesa = despesa;
     }
 }
