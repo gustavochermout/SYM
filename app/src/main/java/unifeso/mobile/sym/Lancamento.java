@@ -7,20 +7,21 @@ package unifeso.mobile.sym;
 public class Lancamento {
     private String data;
     private String descricao;
-    private String classificacao;
     private double valor;
     private int idmeta;
     private int idCartao;
+    private int idCategoria;
 
-    public Lancamento(double valor, String classificacao, String descricao, String data) {
-        this.valor = valor;
-        this.classificacao = classificacao;
-        this.descricao = descricao;
-        this.data = data;
+    public Lancamento() {
     }
 
-    public Lancamento(){
-
+    public Lancamento(String data, String descricao, double valor, int idmeta, int idCartao, int idCategoria) {
+        this.data = data;
+        this.descricao = descricao;
+        this.valor = valor;
+        this.idmeta = idmeta;
+        this.idCartao = idCartao;
+        this.idCategoria = idCategoria;
     }
 
     public String getData() {
@@ -39,19 +40,35 @@ public class Lancamento {
         this.descricao = descricao;
     }
 
-    public String getClassificacao() {
-        return classificacao;
-    }
-
-    public void setClassificacao(String classificacao) {
-        this.classificacao = classificacao;
-    }
-
     public double getValor() {
         return valor;
     }
 
     public void setValor(double valor) {
         this.valor = valor;
+    }
+
+    public int getIdmeta() {
+        return idmeta;
+    }
+
+    public void setIdmeta(int idmeta) {
+        this.idmeta = idmeta;
+    }
+
+    public int getIdCartao() {
+        return idCartao;
+    }
+
+    public void setIdCartao(int idCartao) {
+        this.idCartao = idCartao;
+    }
+
+    public int getIdCategoria() {
+        return idCategoria;
+    }
+
+    public void setIdCategoria(int idCategoria) {
+        this.idCategoria = idCategoria;
     }
 }
