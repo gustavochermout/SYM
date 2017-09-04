@@ -9,8 +9,8 @@ public class Lancamento {
     private String descricao;
     private String classificacao;
     private double valor;
-    private Meta idmeta;
-    private Cartao idCartao;
+    private int idmeta;
+    private int idCartao;
 
     public Lancamento(double valor, String classificacao, String descricao, String data) {
         this.valor = valor;
